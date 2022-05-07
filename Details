@@ -1,0 +1,40 @@
+Recap: Last Week
+  Node --> Javascript runtime env without browser
+  modularize --> export from the a file, import in another file
+  npm --> node packager manager  ---> install external third party libraries into our codebase
+  npx --> node package executable ---> to run a executable script and set the initial template codebase or setup ( create-react-app )
+
+  SPA --> Single Page Application ( Single HTML )
+    Single is rendered and the DOM inside is manipulated with interactions and ajax( asynchronous operations ) calls
+  
+  React Setup:
+    npx create-react-app sample-app --> this create react project under folder sample-app
+
+    cd sample-app
+
+    npm start
+
+
+Topics:
+
+  Components (simple HTML layout to reusable react components)
+    Functional ---> Direct return of JSX 
+    Class Components ---> extend from React.Compoent & return JSX inside render
+  
+    Props
+      Passing data through props
+      Functional  ---> First arguement takes all props as a single object. Arguement level destructuring is possible
+      Class ---> this.props take all props as a single object
+
+    State
+      data change inside the JSX syntax
+      Functional ---> useState hook to handle data change inside DOM
+      class ---> Initialize State values in Constructor and Change the State value with this.setState
+
+  working with array lists ---> Use Map to render or return JSX 
+  usage of keys ---> used to identify the DOM Node/Element in the DOM Tree
+
+
+  conditional rendering ---> conditional render some content into the DOM
+  ? render used to used render this or that
+  && used to render content only on true condition
